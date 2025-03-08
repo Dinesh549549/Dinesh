@@ -21,10 +21,7 @@
   </properties>
 
   <dependencies>
-    -->
-  </dependencies>
-
-  <build>
+     <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -37,22 +34,29 @@
     </plugins>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <artifactId>maven-clean-plugin</artifactId>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
         </plugin>
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-archetype-plugin</artifactId>
           <version>3.2.0</version>
         </plugin>
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
         </plugin>
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
           <version>3.1.2</version>
         </plugin>
-       >maven-deploy-plugin</artifactId>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
           <version>3.1.2</version>
         </plugin>
       </plugins>
