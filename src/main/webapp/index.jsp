@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transform: perspective(1000px) rotateY(10deg);
-           s;
+            transition: transform 0.3s;
         }
         .service:hover, .devops-stage:hover {
             transform: perspective(1000px) rotateY(0deg);
@@ -49,72 +50,72 @@
         </div>
         <div class="service">
             <h2>AWS EC2</h2>
-            <img src="aws-ec2-image-url" alt="AWS EC2">
+            <img src="https://example.com/aws-ec2.png" alt="AWS EC2">
             <p>Amazon EC2 provides scalable computing capacity in the AWS cloud.</p>
         </div>
         <div class="service">
             <h2>AWS VPC</h2>
-            <img src="aws-vpc-image-url" alt="AWS VPC">
+            <img src="https://example.com/aws-vpc.png" alt="AWS VPC">
             <p>Amazon VPC lets you provision a logically isolated section of the AWS cloud.</p>
         </div>
         <div class="service">
             <h2>AWS S3</h2>
-            <img src="aws-s3-image-url" alt="AWS S3">
+            <img src="https://example.com/aws-s3.png" alt="AWS S3">
             <p>Amazon S3 is object storage built to store and retrieve any amount of data from anywhere.</p>
         </div>
         <div class="service">
             <h2>AWS Lambda</h2>
-            <img src="aws-lambda-image-url" alt="AWS Lambda">
+            <img src="https://example.com/aws-lambda.png" alt="AWS Lambda">
             <p>AWS Lambda lets you run code without provisioning or managing servers.</p>
         </div>
         <div class="service">
             <h2>AWS NACL</h2>
-            <img src="aws-nacl-image-url" alt="AWS NACL">
+            <img src="https://example.com/aws-nacl.png" alt="AWS NACL">
             <p>Network ACLs provide an additional layer of security for your VPC.</p>
         </div>
         <div class="service">
             <h2>AWS ELB</h2>
-            <img src="aws-elb-image-url" alt="AWS ELB">
+            <img src="https://example.com/aws-elb.png" alt="AWS ELB">
             <p>Elastic Load Balancing automatically distributes incoming application traffic.</p>
         </div>
         <div class="devops-stage">
             <h2>Plan</h2>
-            <img src="devops-plan-image-url" alt="Plan">
+            <img src="https://example.com/devops-plan.png" alt="Plan">
             <p>Planning involves defining the goals and requirements of the project.</p>
         </div>
         <div class="devops-stage">
             <h2>Code</h2>
-            <img src="devops-code-image-url" alt="Code">
+            <img src="https://example.com/devops-code.png" alt="Code">
             <p>In this stage, developers write the code for the application.</p>
         </div>
         <div class="devops-stage">
             <h2>Build</h2>
-            <img src="devops-build-image-url" alt="Build">
+            <img src="https://example.com/devops-build.png" alt="Build">
             <p>Building involves compiling the code and creating executable files.</p>
         </div>
         <div class="devops-stage">
             <h2>Test</h2>
-            <img src="devops-test-image-url" alt="Test">
+            <img src="https://example.com/devops-test.png" alt="Test">
             <p>Testing ensures the code is functional and meets the requirements.</p>
         </div>
         <div class="devops-stage">
             <h2>Release</h2>
-            <img src="devops-release-image-url" alt="Release">
+            <img src="https://example.com/devops-release.png" alt="Release">
             <p>Releasing involves deploying the application to a production environment.</p>
         </div>
         <div class="devops-stage">
             <h2>Deploy</h2>
-            <img src="devops-deploy-image-url" alt="Deploy">
+            <img src="https://example.com/devops-deploy.png" alt="Deploy">
             <p>Deployment involves making the application available to users.</p>
         </div>
         <div class="devops-stage">
             <h2>Operate</h2>
-            <img src="devops-operate-image-url" alt="Operate">
+            <img src="https://example.com/devops-operate.png" alt="Operate">
             <p>Operating involves monitoring and maintaining the application.</p>
         </div>
         <div class="devops-stage">
             <h2>Monitor</h2>
-            <img src="devops-monitor-image-url" alt="Monitor">
+            <img src="https://example.com/devops-monitor.png" alt="Monitor">
             <p>Monitoring involves tracking the performance and usage of the application.</p>
         </div>
     </div>
